@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+.FirstDiv{
+    background-color: rgb(200, 200, 210);
+}
+button{
+    border-radius: 5px;
+    margin-left: 4px;
+}
+.LeftSection
+{
+    background-color: rgb(135, 206, 235);
+    text-align: center;
+   
+    height: 100vh;
+    width:200px;  
+    max-width:250px;   
+    display: inline-block;
+      justify-content: center;
+    align-items: center;
+     
+}
+     
+     
+
+.mainContent1{
+
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(224, 218, 125);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+
+.Page{
+    flex-grow: 1;
+    flex-basis: 100vh;
+}
+
+.mainContent2
+{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(224, 218, 125);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+
+}
+.flex1{
+    display: flex;
+     
+}
+
+
+.flex2{
+    display: flex;
+}
+
+.default
+{
+    flex-direction: column;
+    display: flex;
+
+}
+.mainContent
+{
+    flex-grow: 1;
+    flex-basis: 10vh;
+}
+
+
+.LeftSectionWord{
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: rgb(3, 3, 124);
+   
+    flex-basis: 62px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: flex-start;
+     color: azure;
+    display: flex;
+    justify-content: flex-start;
+   
+
+}
